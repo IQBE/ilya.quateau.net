@@ -1,0 +1,42 @@
+@use "../../assets/styles/variables" as *;
+
+.typewriter {
+  width: 55vw;
+  height: 20rem;
+  font-family: "Halfomania", sans-serif;
+  font-size: 20rem;
+  font-weight: normal;
+  line-height: 10rem;
+  margin: 0;
+  text-align: left;
+  padding-left: 1rem;
+  border-left: white 0.3rem solid;
+  background-color: $background-color;
+  position: relative;
+  z-index: 100;
+}
+
+.cursor {
+  height: 9rem;
+  width: 2rem;
+  display: inline-block;
+  vertical-align: top;
+  background-color: white;
+
+  &.blinking {
+    margin-left: 0.1rem;
+    animation: blink 1.5s ease-in-out infinite;
+  }
+}
+
+@keyframes blink {
+  25%,
+  75% {
+    opacity: 1;
+  }
+  0%,
+  100% {
+    opacity: 0.2;
+  }
+}
+

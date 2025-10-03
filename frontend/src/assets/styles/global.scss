@@ -1,0 +1,66 @@
+@use "./variables" as *;
+
+@font-face {
+  font-family: "Halfomania";
+  src:
+    url("../fonts/halfomania/Halfomania-Regular.woff2") format("woff2"),
+    url("../fonts/halfomania/Halfomania-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lack";
+  src:
+    url("../fonts/lack/Lack-Regular.woff2") format("woff2"),
+    url("../fonts/lack/Lack-Regular.woff") format("woff");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lack";
+  src:
+    url("../fonts/lack/Lack-Line-Italic.woff2") format("woff2"),
+    url("../fonts/lack/Lack-Line-Italic.woff") format("woff");
+  font-style: italic;
+}
+
+html,
+body {
+  background-color: $background-color;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Halfomania", sans-serif;
+  font-size: 10rem;
+  font-weight: normal;
+  line-height: 10rem;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Lack", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+p {
+  font-family: "Lack", sans-serif;
+  font-size: 1.5rem;
+}
+
+i {
+  font-weight: 700;
+  color: $primary-color;
+  text-shadow: 0 0 1rem $primary-color;
+}
+
+b {
+  font-weight: 700;
+  font-style: italic;
+  color: $secondary-color;
+  text-shadow: 0 0 1rem $secondary-color;
+}
+
