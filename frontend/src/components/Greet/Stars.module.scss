@@ -20,6 +20,14 @@
     height: 2px;
     animation: twinkle 2s infinite ease-in-out;
   }
+
+  .falling {
+    width: 80px;
+    background: linear-gradient(90deg, white, transparent);
+    opacity: 0;
+    transform: rotate(315deg);
+    animation: fall 10s infinite linear;
+  }
 }
 
 @keyframes twinkle {
@@ -29,6 +37,21 @@
   }
   50% {
     opacity: 0.2;
+  }
+}
+
+@keyframes fall {
+  0%,
+  100% {
+    transform: translate(0, 0) rotate(315deg);
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  50% {
+    transform: translate(-200px, 200px) rotate(315deg);
+    opacity: 0;
   }
 }
 
