@@ -1,0 +1,80 @@
+@use "../../assets/styles/variables" as *;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: $background-color;
+  color: $text-color;
+  padding: 2rem;
+  gap: 3rem;
+}
+
+.header {
+  text-align: center;
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+}
+
+.textSection {
+  max-width: 700px;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.buttonsSection {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  button {
+    font-family: "Lack", sans-serif;
+    font-size: 1.2rem;
+    padding: 0.8rem 2rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .primaryButton {
+    background-color: $primary-color;
+    color: $background-color;
+    box-shadow: 0 0 1rem $primary-color;
+
+    &:hover {
+      filter: brightness(1.1);
+    }
+  }
+
+  .secondaryButton {
+    background-color: $secondary-color;
+    color: $background-color;
+    box-shadow: 0 0 1rem $secondary-color;
+
+    &:hover {
+      filter: brightness(1.1);
+    }
+  }
+
+  .outlineButton {
+    background: transparent;
+    border: 2px solid $text-color;
+    color: $text-color;
+
+    &:hover {
+      background-color: rgba($text-color, 0.1);
+    }
+  }
+}
+
+.footer {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
