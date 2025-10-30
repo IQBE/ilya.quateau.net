@@ -3,6 +3,7 @@ import styles from "./Greet.module.scss";
 
 import Folder from "./Folder";
 import Typewriter from "./Typewriter";
+import ScrollArrow from "./ScrollArrow";
 
 const Greet = () => {
   const typewriterRef = useRef<HTMLDivElement>(null);
@@ -30,6 +31,10 @@ const Greet = () => {
         <div ref={typewriterRef}>
           <Typewriter />
         </div>
+      </div>
+
+      <div className={styles.scrollArrow}>
+        <ScrollArrow />
       </div>
     </div>
   );

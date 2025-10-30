@@ -14,5 +14,19 @@
     position: relative;
     overflow: hidden;
   }
+
+  .scrollArrow {
+    position: absolute;
+    bottom: 5rem;
+    opacity: 0;
+    animation: appear 2s forwards;
+    animation-delay: 4s;
+  }
+}
+
+@keyframes appear {
+  to {
+    opacity: 1;
+  }
 }
 
