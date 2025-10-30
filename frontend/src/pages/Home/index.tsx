@@ -5,6 +5,7 @@ import Projects from "../../components/Projects";
 import Blog from "../../components/Blog";
 import Links from "../../components/Links";
 import Footer from "../../components/Footer";
+import StarBackground from "../../components/StarBackground";
 
 import "./Home.module.scss";
 
@@ -13,6 +14,7 @@ const Home = () => {
     <>
       <Navbar />
       <main>
+        <StarBackground />
         <Greet />
         <AboutMe />
         <Projects />

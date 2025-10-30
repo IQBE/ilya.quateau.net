@@ -3,7 +3,6 @@ import styles from "./Greet.module.scss";
 
 import Folder from "./Folder";
 import Typewriter from "./Typewriter";
-import Stars from "./Stars";
 
 const Greet = () => {
   const typewriterRef = useRef<HTMLDivElement>(null);
@@ -32,7 +31,6 @@ const Greet = () => {
           <Typewriter />
         </div>
       </div>
-      <Stars />
     </div>
   );
 };
