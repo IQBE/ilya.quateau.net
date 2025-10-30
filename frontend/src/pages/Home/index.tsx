@@ -12,9 +12,9 @@ import "./Home.module.scss";
 const Home = () => {
   return (
     <>
+      <StarBackground />
       <Navbar />
       <main>
-        <StarBackground />
         <Greet />
         <AboutMe />
         <Projects />
