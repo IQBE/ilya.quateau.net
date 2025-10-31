@@ -13,9 +13,9 @@ $peakopacity: rgba(255, 255, 255, 0.7);
     position: absolute;
     width: 100%;
     height: 100%;
-    border-left: $size/3 solid $peakopacity;
-    border-bottom: $size/3 solid $peakopacity;
-    transform: translate($size/3, $size * 4/3) rotate(-45deg);
+    border-left: calc($size/3) solid $peakopacity;
+    border-bottom: calc($size/3) solid $peakopacity;
+    transform: translate(calc($size/3), calc($size * 4 / 3)) rotate(-45deg);
     animation: arrows $speed linear infinite;
   }
   &:after {
@@ -23,33 +23,33 @@ $peakopacity: rgba(255, 255, 255, 0.7);
     position: absolute;
     width: 100%;
     height: 100%;
-    border-left: $size/3 solid $peakopacity;
-    border-bottom: $size/3 solid $peakopacity;
-    transform: translate($size * 2/3, 0px) rotate(-45deg);
-    animation: arrows $speed linear infinite $speed/-2;
+    border-left: calc($size/3) solid $peakopacity;
+    border-bottom: calc($size/3) solid $peakopacity;
+    transform: translate(calc($size * 2 / 3), 0px) rotate(-45deg);
+    animation: arrows $speed linear infinite calc($speed/-2);
   }
 }
 
 @keyframes arrows {
   0% {
-    border-left: $size/3 solid $defaultColor;
-    border-bottom: $size/3 solid $defaultColor;
-    transform: translate($size/-6, $size * 4/-6) rotate(-45deg);
+    border-left: calc($size/3) solid $defaultColor;
+    border-bottom: calc($size/3) solid $defaultColor;
+    transform: translate(calc($size/-6), calc($size * 4 / -6)) rotate(-45deg);
   }
   10%,
   90% {
-    border-left: $size/3 solid $defaultColor;
-    border-bottom: $size/3 solid $defaultColor;
+    border-left: calc($size/3) solid $defaultColor;
+    border-bottom: calc($size/3) solid $defaultColor;
   }
   50% {
-    border-left: $size/3 solid $peakopacity;
-    border-bottom: $size/3 solid $peakopacity;
-    transform: translate($size/-6, 0px) rotate(-45deg);
+    border-left: calc($size/3) solid $peakopacity;
+    border-bottom: calc($size/3) solid $peakopacity;
+    transform: translate(calc($size/-6), 0px) rotate(-45deg);
   }
   100% {
-    border-left: $size/3 solid $defaultColor;
-    border-bottom: $size/3 solid $defaultColor;
-    transform: translate($size/-6, $size * 4/6) rotate(-45deg);
+    border-left: calc($size/3) solid $defaultColor;
+    border-bottom: calc($size/3) solid $defaultColor;
+    transform: translate(calc($size/-6), calc($size * 4 / 6)) rotate(-45deg);
   }
 }
 
