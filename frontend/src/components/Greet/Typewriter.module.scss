@@ -21,7 +21,7 @@
   width: 2rem;
   display: inline-block;
   vertical-align: top;
-  background-color: white;
+  background-color: rgba($color: white, $alpha: 0.5);
 
   &.blinking {
     margin-left: 0.1rem;
