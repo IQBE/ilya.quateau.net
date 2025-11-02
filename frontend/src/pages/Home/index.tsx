@@ -15,11 +15,21 @@ const Home = () => {
       <StarBackground />
       <Navbar />
       <main>
-        <Greet />
-        <AboutMe />
-        <Projects />
-        <Blog />
-        <Links />
+        <section id="home">
+          <Greet />
+        </section>
+        <section id="aboutMe">
+          <AboutMe />
+        </section>
+        <section id="projects">
+          <Projects />
+        </section>
+        <section id="blog">
+          <Blog />
+        </section>
+        <section id="links">
+          <Links />
+        </section>
       </main>
       <Footer />
     </>
