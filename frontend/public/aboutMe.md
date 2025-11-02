@@ -7,7 +7,9 @@ description: This About me is written in markdown. It would be hosted on an exte
 
 # About me
 
-Hi\! My name is Ilya Quateau. I’m a programmer, gamer and computer enthusiast. I love designing websites, finding solutions to complex problems and managing servers. I run my own servers at home and I write simple (and more complex) programs to make every day life a bit easier.
+_Hi\!_ My name is **Ilya Quateau**. I’m a programmer, gamer and computer enthusiast. I love designing websites, finding solutions to complex problems and managing servers. I run my own servers at home and I write simple (and more complex) programs to make every day life a bit easier.
+
+![My profile picture](/images/profilePicture.jpg)
 
 ## My story
 

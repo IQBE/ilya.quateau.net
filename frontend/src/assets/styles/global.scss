@@ -23,6 +23,10 @@
   font-style: italic;
 }
 
+* {
+  z-index: inherit;
+}
+
 html,
 body {
   background-color: $background-color;
@@ -36,7 +40,11 @@ h1 {
   font-size: 10rem;
   font-weight: normal;
   line-height: 10rem;
-  margin: 0;
+  text-align: center;
+  border-top: $border-color 0.2rem solid;
+  border-bottom: $border-color 0.2rem solid;
+  border-radius: $border-radius;
+  margin: 0 0 3rem 0;
 }
 
 h2 {
@@ -44,6 +52,10 @@ h2 {
   font-size: 2.5rem;
   font-weight: 700;
   font-style: italic;
+  text-align: center;
+  border-bottom: $border-color 0.2rem solid;
+  border-radius: $border-radius;
+  padding: 0.5rem;
 }
 
 p {
@@ -51,13 +63,15 @@ p {
   font-size: 1.5rem;
 }
 
-i {
+i,
+em {
   font-weight: 700;
   color: $primary-color;
   text-shadow: 0 0 1rem $primary-color;
 }
 
-b {
+b,
+strong {
   font-weight: 700;
   font-style: italic;
   color: $secondary-color;
