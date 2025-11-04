@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import styles from "./Navbar.module.scss";
 
 const sections = [
@@ -22,16 +22,39 @@ const smoothScroll = (link: string) => {
 
 const Navbar = () => {
   const [visible, setVisible] = useState(false);
+  const [activeSection, setActiveSection] = useState("home");
 
-  window.onscroll = () => {
-    const triggerPoint = window.innerHeight / 2;
-    setVisible(window.scrollY > triggerPoint);
-  };
+  useEffect(() => {
+    const handleScroll = () => {
+      const triggerPoint = window.innerHeight / 2;
+      setVisible(window.scrollY > triggerPoint);
+
+      let currentSection = "home";
+      sections.forEach(({ section }) => {
+        const element = document.getElementById(section);
+        if (element) {
+          const rect = element.getBoundingClientRect();
+          if (rect.top <= triggerPoint) {
+            currentSection = section;
+          }
+        }
+      });
+      setActiveSection(currentSection);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <div className={`${styles.navbar} ${visible ? styles.show : styles.hide}`}>
       {sections.map(({ section, link, icon }) => (
-        <img src={icon} alt={section} onClick={() => smoothScroll(link)} />
+        <div
+          key={section}
+          className={activeSection === section ? styles.highlight : ""}
+        >
+          <img src={icon} alt={section} onClick={() => smoothScroll(link)} />
+        </div>
       ))}
     </div>
   );
