@@ -1,7 +1,8 @@
-import "./Projects.module.scss";
+import styles from "./Projects.module.scss";
 
 const Projects = () => {
-  return <div>Projects</div>;
+  return <div className={styles.projects}>Projects</div>;
 };
 
 export default Projects;
+

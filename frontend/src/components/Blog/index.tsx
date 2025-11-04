@@ -1,7 +1,8 @@
-import "./Blog.module.scss";
+import styles from "./Blog.module.scss";
 
 const Blog = () => {
-  return <div>Blog</div>;
+  return <div className={styles.blog}>Blog</div>;
 };
 
 export default Blog;
+

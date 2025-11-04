@@ -7,8 +7,6 @@ import Links from "../../components/Links";
 import Footer from "../../components/Footer";
 import StarBackground from "../../components/StarBackground";
 
-import "./Home.module.scss";
-
 const Home = () => {
   return (
     <>
