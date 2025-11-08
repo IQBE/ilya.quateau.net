@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
-   sodipodi:docname="projects-new.svg"
+   sodipodi:docname="projects.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,9 +25,9 @@
      inkscape:document-units="px"
      showborder="true"
      showguides="true"
-     inkscape:zoom="0.84723929"
-     inkscape:cx="363.53366"
-     inkscape:cy="355.27153"
+     inkscape:zoom="0.69727621"
+     inkscape:cx="317.66464"
+     inkscape:cy="408.73329"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
@@ -148,7 +148,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:none;stroke:#ffffff;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:505.001;stroke-opacity:1"
+       style="fill:none;stroke:#ffffff;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1000,150;stroke-dashoffset:765;stroke-opacity:1"
        id="rect23"
        width="650"
        height="475"
@@ -167,13 +167,14 @@
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ffffff;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:505.001;stroke-opacity:1"
-       d="M 475,550 V 725"
+       d="M 475,627.90007 V 725"
        id="path28"
        sodipodi:nodetypes="cc" />
     <path
-       style="fill:none;stroke:#ffffff;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:505.001;stroke-opacity:1"
-       d="M 75,450 H 725"
-       id="path29" />
+       style="fill:none;stroke:#ffffff;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:275;stroke-opacity:1"
+       d="M 75,450 H 600"
+       id="path29"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ffffff;stroke-width:40;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:505.001;stroke-opacity:1"
        d="M 325,175 200,262.5 325,350"

@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
-   sodipodi:docname="home-new.svg"
+   sodipodi:docname="home.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,9 +25,9 @@
      inkscape:document-units="px"
      showborder="true"
      showguides="true"
-     inkscape:zoom="0.84723929"
-     inkscape:cx="363.53366"
-     inkscape:cy="355.27153"
+     inkscape:zoom="0.15606439"
+     inkscape:cx="-490.18227"
+     inkscape:cy="1172.5929"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
@@ -36,28 +36,28 @@
      inkscape:current-layer="layer1"
      labelstyle="default">
     <sodipodi:guide
-       position="-120.39102,50"
+       position="-120.39102,75"
        orientation="0,1"
        id="guide8"
        inkscape:locked="false"
        inkscape:label=""
        inkscape:color="rgb(0,134,229)" />
     <sodipodi:guide
-       position="50,551.25365"
+       position="75,551.25365"
        orientation="-1,0"
        id="guide9"
        inkscape:locked="false"
        inkscape:label=""
        inkscape:color="rgb(0,134,229)" />
     <sodipodi:guide
-       position="750,328.77743"
+       position="725,328.77743"
        orientation="-1,0"
        id="guide10"
        inkscape:locked="false"
        inkscape:label=""
        inkscape:color="rgb(0,134,229)" />
     <sodipodi:guide
-       position="-121.18864,750"
+       position="-121.18864,725"
        orientation="0,1"
        id="guide11"
        inkscape:locked="false"
@@ -106,9 +106,9 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:none;stroke:#ffffff;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:800,100;stroke-dashoffset:70;stroke-opacity:1"
-       d="M 50,750 V 250 L 400,50 750,250 V 750 H 525 V 500 H 275 v 250 z"
+       style="fill:none;stroke:#ffffff;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:800, 100;stroke-dashoffset:150;stroke-opacity:1"
+       d="M 75,725 V 250 C 75,250 276.95981,75 400,75 523.04019,75 725,250 725,250 V 725 H 525 V 500 c 0,-83.33334 -250,-83.33334 -250,0 v 225 z"
        id="path8"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="ccacccsscc" />
   </g>
 </svg>
