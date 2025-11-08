@@ -2,19 +2,18 @@ import { useState, useEffect } from "react";
 import styles from "./Navbar.module.scss";
 
 const sections = [
-  { section: "home", link: "/#home", icon: "/images/icons/home.svg" },
-  { section: "aboutMe", link: "/#aboutMe", icon: "/images/icons/aboutMe.svg" },
+  { section: "home", icon: "/images/icons/home.svg" },
+  { section: "aboutMe", icon: "/images/icons/aboutMe.svg" },
   {
     section: "projects",
-    link: "/#projects",
     icon: "/images/icons/projects.svg",
   },
-  { section: "blog", link: "/#blog", icon: "/images/icons/blog.svg" },
-  { section: "links", link: "/#links", icon: "/images/icons/links.svg" },
+  { section: "blog", icon: "/images/icons/blog.svg" },
+  { section: "links", icon: "/images/icons/links.svg" },
 ];
 
-const smoothScroll = (link: string) => {
-  const element = document.getElementById(link.replace("/#", ""));
+const smoothScroll = (section: string) => {
+  const element = document.getElementById(section);
   if (element) {
     element.scrollIntoView({ behavior: "smooth" });
   }
@@ -48,12 +47,12 @@ const Navbar = () => {
 
   return (
     <div className={`${styles.navbar} ${visible ? styles.show : styles.hide}`}>
-      {sections.map(({ section, link, icon }) => (
+      {sections.map(({ section, icon }) => (
         <div
           key={section}
           className={activeSection === section ? styles.highlight : ""}
         >
-          <img src={icon} alt={section} onClick={() => smoothScroll(link)} />
+          <img src={icon} alt={section} onClick={() => smoothScroll(section)} />
         </div>
       ))}
     </div>
