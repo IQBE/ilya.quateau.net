@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://github.com/IQBE/ilya.quateau.net",
+    "name": "ilya.quateau.net",
+    "description": "My personal website.",
+    "language": "TypeScript"
+  },
+  {
+    "url": "https://github.com/IQBE/dotfiles",
+    "name": "dotfiles",
+    "description": "An easy way for me to store and share my dotfiles for Linux configuration.",
+    "language": "Lua"
+  },
+  {
+    "url": "https://github.com/SteijeDeBroek/Projectwerk",
+    "name": "Projectwerk",
+    "description": "Het projectwerk-werk over het coockiemonster",
+    "language": "C#"
+  },
+  {
+    "url": "https://github.com/IQBE/custom_crafting_vanilla",
+    "name": "custom_crafting_vanilla",
+    "description": "A small datapack that adds crafting recipes for vanilla items to make every day life a bit easier",
+    "language": null
+  },
+  {
+    "url": "https://github.com/IQBE/DLData",
+    "name": "DLData",
+    "description": "A small project to learn data engineering best practices",
+    "language": "Python"
+  },
+  {
+    "url": "https://github.com/IQBE/QtChatApp",
+    "name": "QtChatApp",
+    "description": "A Qt chat application, heavily inspired by the network chat example provided by the Qt group.",
+    "language": "C++"
+  }
+]
+
